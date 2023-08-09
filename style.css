@@ -1,0 +1,114 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa; /* Light blue-gray background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.8rem; /* Larger font size */
+    color: #2d3a4b; /* Dark blue-gray text color */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .div-section {
+        width: 100%;
+    }
+
+    .preview,
+    .video-preview {
+        width: 100%;
+        height: auto;
+    }
+
+    .input-section input[type="text"],
+    .input-section input[type="file"] {
+        width: 100%;
+    }
+}
+
+/* Other styles */
+.label-section {
+    text-decoration: none; /* Remove text decoration from labels */
+    font-size: 1.6rem; /* Larger font size */
+    color: #556b8a; /* Blue-gray text color */
+    margin-bottom: 10px;
+}
+
+.data-container {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px; /* Slightly larger border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fdfdfd; /* Off-white background */
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #ff6b6b; /* Coral header background */
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 2.2rem; /* Larger font size */
+    color: #fff;
+}
+
+.card-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 16px 32px; /* Slightly larger padding */
+    font-size: 1.8rem; /* Larger font size */
+    background-color: #ff6b6b; /* Coral button color */
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-section button:hover {
+    background-color: #ff5a5a; /* Darker shade on hover */
+}
